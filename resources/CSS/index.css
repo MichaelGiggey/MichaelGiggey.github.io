@@ -1,1 +1,60 @@
+body {
+  
+ 
+    background-image: url(./images/under-construction-sign.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+h1.header {
+    margin: 20px;
+    text-align: center;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 140px;
+    color: rgb(199, 214, 209);
+    opacity:0.70;
+    
+}
 
+
+nav ul {
+    list-style-type:none;
+    text-align:center;
+    
+}
+
+.nav-container a {
+    display: inline-block;
+    width: auto;
+    margin: 15px auto;
+    text-decoration: none;
+    color: rgb(219, 219, 218);
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    font-variation-settings: "BLED" 0, "SCAN" -31;
+    opacity: 0.90;
+}
+
+.badgesul {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.badgesul li {
+    display: inline-block;
+    margin:10px ;
+}
+
+.badge {
+    width: 100px;
+    height: 100px;
+    opacity: 0.70;
+    margin: 0 auto;
+    padding: 0;
+}
