@@ -120,7 +120,7 @@ nav.nav-container {
 
 .badge {
    
-    height: 10vh;
+    height: 10vw;
     opacity: 0.70;
     margin: 0 auto;
     padding: 0 auto;
@@ -133,6 +133,6 @@ footer{
      position:fixed;
      bottom:0;
      left:0;
-     top:85%;
+     top:80%;
      
 }
