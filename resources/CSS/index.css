@@ -1,96 +1,77 @@
- * {
+* {
     box-sizing: border-box; /*width and height of an element include padding and border*/
     /* box-sizing: content-box; */ /*width and height of an element 
      do not include padding and border*/
     margin:0 ;
     padding:0 ;
    
-    /*min-height: 100%;
-    max-width: 100%; 
-    border: 1px solid red;     highlight all box models for browser dev tool editing*/
 
-     /* Responsive font size adjustment 
-     @media screen and (max-width: 100vw) {
-        font-size: 3em;} Adjust font size for smaller screens */
-  
+    /* border: 1px solid red;     highlight all box models for browser dev tool editing*/
+
 }
- 
-  
+
 body {
 
-    
     height:100vh;
     max-width:100vw;
     background-image: url(../images/1062.png);
     background-position: center;
-    background-size:10vh;
+    background-size:20vw;
     background-repeat:repeat;
     margin:0 0;
     padding: 0;
    
-    
-   
-    
 }
 
 header {
+
     text-align:center;
-    border-bottom: 0.5vh solid rgba(37, 61, 82, 0.788);
+    border-bottom: 0.3vw solid rgba(37, 61, 82, 0.788);
     border-bottom-right-radius: 30%;
-    outline: 2.1vh solid rgba(0, 0, 0, 0.9);
-    box-shadow: 0 0 0 2.4vh rgba(14, 22, 26, 0.6);
-    background-color: rgb(4, 20, 34); 
+    outline: 2.1vw solid rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 0 2.4vw rgba(14, 22, 26, 0.6);
+    background-color: rgb(4, 20, 34);
     width:100vw;
-    max-height: 8.7vw;
+    height:fit-content;
+    max-height: 5.7vw;
     max-width: 100vw;
     min-width: 20vw;
-    
     z-index: 2;
     position: relative;
-    
+
 }
   
 h1.header {
-    
-   
-    
+        
     font-family: "Protest Revolution", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size:8.7vw;
+    font-size:5.7vw;
     color: rgb(255, 255, 255);
     opacity:0.80;
-    
-    
-   
+
 }
 
-
 nav ul {
-    padding-top: 2vh;
+    padding-top: 1vw;
     list-style-type:none;
     text-align:left;
-    
 }
 
 nav.nav-container {
     
-    
-   
-    max-width: fit-content;
+    width: fit-content;    
     height:50vh;
-    margin-top: 2vh;
-    
-   
+    margin-top: 2vw;
     background-color: rgba(4, 20, 34, 0.671);
-    border-bottom-right-radius: 20vh ;
+    border-bottom-right-radius: 20vh;
     border-right: 0.3vh outset rgba(0, 0, 0, 0.30);
-    border-bottom: 0.5vh outset rgba(0, 0, 0, 0.30);
-    position: absolute;
+    border-bottom: 0.5vh outset rgba(0, 0, 0, 0.30);   
+    position: absolute;    
     z-index:2;
-  
-    
+
 }
+
 .nav-container a {
     display: block;
     margin-top: 2vh;
@@ -101,20 +82,20 @@ nav.nav-container {
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    font-size: 2.4vw;
+    font-size: 1.2vw;
     font-variation-settings: "BLED" 0, "SCAN" -31;
     opacity: 0.90;
 }
-
 a:hover{
     color:crimson;
-    font-size: 2.8vw;
+    font-size:2.5vw;
+      
+   
 }
-
 .badgesul {
     text-align: center;
     margin: 0 auto;
-    padding: 0;
+    
 }
 
 .badgesul li {
@@ -125,19 +106,21 @@ a:hover{
 
 .badge {
    
-    height: 10vw;
+    height: 5vw;
     opacity: 0.70;
-    margin: 0 auto;
-    padding: 0 auto;
+    
+ 
+    
 }
 
 footer{
 
      width:100%;
-     margin:0 auto;
-     position:fixed;
+     
+     position:absolute;
      bottom:0;
      left:0;
-     top:80%;
+     top:85vh;
+     
      
 }
