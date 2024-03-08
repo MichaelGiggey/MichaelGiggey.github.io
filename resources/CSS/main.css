@@ -158,6 +158,10 @@ body {
         border: 2px solid rgba(0, 0, 0, 0.568);
     }
 }
+
+.box, #box-a, #box-b, #box-c, #box-d, #box-e {
+    transform: translate3d(0, 0, 0);
+  }
 /*-----------------------2-----------------HeaderLogo-----------------------------------*/
 
 
