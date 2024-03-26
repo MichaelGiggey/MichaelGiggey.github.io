@@ -11,18 +11,20 @@ background-color: #b3ccc2;
 background: linear-gradient(to bottom right, #b3ccc2, #73a9db);
 --------------------------------------------Index #0 --------------------------------------*/
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 760px)  {
 
     #iframe-message{
         overflow: scroll;
     }
     
-    .bright-slider-box label {
-        margin-top: -2px;
+
+
+}
+@media screen and (max-height:400px) {
+    #iframe-message{
+        overflow: scroll;
     }
-        .center {
-        margin-top: 1px;
-    }
+
 
 }
 
@@ -284,6 +286,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    align-self: center;
     font-weight: 500;
     border-radius: 15px;
   
@@ -302,7 +305,7 @@ nav {
     
 }
 .center {
-    padding-top: 2px;
+    padding-top: 1px;
     
 }
 /*----------------------------------------Brightness control #4 --------------------------------------*/
