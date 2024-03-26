@@ -1,49 +1,107 @@
+<!---------------------------------------------Index #0 ------------------------------------>
+
+<!---------------------------------------------Index #0 ------------------------------------>
+<!---------------------------------------------Comment #1 ---------------------------------->
+
 <!DOCTYPE html>
-<htmL>
+<html lang="en">
 
 <head>
-    <link href="resources/CSS/main.css" type="text/css" rel="stylesheet">
+    <link href="resources/css/main.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Michael J.C. Giggey</title>
+    <meta name="author" content="Michael Giggey">
+    <script src="resources/javascript/main.js" defer></script>
+
+    <title>Portfolio 0.5</title>
 </head>
 
 <body>
-    <!--------------------------------------Comment--------------------------------->
+
     <header>
-        <div class="box">
-            <div id="box-a"></div>
-            <div id="box-b"></div>
-            <div id="box-c"></div>
-            <div id="box-d"></div>
-            <div id="box-e"></div>
-        </div>
         <h1>Michael J.C. Giggey</h1>
-        <div class="h1-border-top"></div>
-        <div class="h1-border-mid"></div>
-        <div class="h1-border-bottom"></div>
     </header>
 
-    <!--------------------------------------Nav---------------------------------------->
+    <!------------------------------------------Nav------------------------------------------>
     <nav>
-        <button class="nav-button" onclick="location.href='#about'"><a href="#about">About</a></button>
-        <button class="nav-button" onclick="location.href='#goals'"><a href="#goals">Goals</a></button>
-        <button class="nav-button" onclick="location.href='#codecademy'"><a
-                href="https://www.codecademy.com/profiles/MichaelsCodecademy">Codecademy</a></button>
-        <button class="nav-button" onclick="location.href='#certifications'"><a
-                href="#certifications">Certifications</a></button>
-        <button class="nav-button" onclick="location.href='#contact'"><a href="#contact">Contact</a></button>
+        <button class="nav-buttons" data-src="https://michaelgiggey.github.io">Main</button>
+        <button class="nav-buttons" data-src="pages/aboutme.html">About Me</button>
+        <button class="nav-buttons" data-src="pages/goals.html">Goals</button>
+        <button class="nav-buttons" data-src="pages/resume.html">Resume</button>
+        <button class="nav-buttons" data-src="https://www.codecademy.com/profiles/MichaelsCodecademy">
+            <span id="codecademy">Code</span><span id="c">c</span>ademy</button>
+        <button class="nav-buttons" data-src="pages/certifications.html">Certifications</button>
+        <button class="nav-buttons" data-src="pages/samples.html">Samples</button>
+        <button class="nav-buttons" data-src="pages/games.html">Games</button>
+        <button class="nav-buttons" data-src="pages/gallery.html">Gallery</button>
+        <button class="nav-buttons" data-src="pages/contact.html">Contact</button>
     </nav>
-    <!--------------------------------------nav---------------------------------------->
+    <!-------------------------------------------Nav----------------------------------------->
 
-    <!--------------------------------------------main---------------------------------------->
+    <!-------------------------------------------Style Controls------------------------------>
+    <div id="page-controls" aria-label="Page theme change buttons">
+
+        <button class="control-buttons" id="original-button">Original &#x2609;</button>
+        <button class="control-buttons" id="light-button">Light
+            <span class="neon-yellow"> &#x263C;</span>
+        </button>
+        <button class="control-buttons" id="dark-button">Dark
+            <span class="neon-white"> &#x2600;</span>
+        </button>
+        <button class="control-buttons" id="neon-button">Neon
+            <span class="neon-blue"> &#x2600;</span>
+        </button>
+        <button class="control-buttons" id="random-button">Random
+            <span id="random-color-change">&#x2609;</span>
+        </button>
+
+        <div class="bright-slider-box">
+            <input id="brightness-slider" name="slider" type="range" min="50" max="150" value="100">
+            <label for="brightness-slider" aria-label="Brightness slider">
+                <span class="dark">&#x2600;</span>
+                <span class="center">|</span>
+                <span class="light">&#x2600;</span>
+            </label>
+            <div id="slider-shadow"></div>
+        </div>
+    </div>
+    <!-------------------------------------------Style Controls------------------------------>
+
+    <!-------------------------------------------Content/Iframe Box-------------------------->
     <main>
 
-    </main>
-    <!--------------------------------------footer--------------------------------->
+        <div id="content">
+            <div id="iframe-message">
+                <h2>Welcome!</h2>
+                <div class="header-border mid"></div>
+                <div class="header-border top"></div>
+                <div class="header-border bottom"></div>
+                <p>
+                    <b>This page is under construction but it works!</b>
+                </p>
+                <p>
+                    Click any button to explore, there may be a secret..
+                </p>
+                <p><b>Fun Fact :</b><br>There is an infinite amount of
+                    color theme variations available for this website.</p>
+                <p><i>10 ^24(approx)</i></p>
 
-    <footer>
-        <h2>Contact:<br>michaeljcg2023@gmail.com</h2>
-    </footer>
+            </div>
+
+            <div id="secret-content">
+                <h1>Secret #1</h1>
+            </div>
+
+            <div id="iframe-controls" aria-label="Fullscreen and close buttons for content display">
+                <div id="fullscreen-button">&#x25A1;</div>
+                <div class="close">&times;</div>
+            </div>
+
+            <iframe id="iframe-box"></iframe>
+
+        </div>
+    </main>
+    <!-------------------------------------------Content/Iframe Box-------------------------->
+
 
 </body>
 
