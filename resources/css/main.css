@@ -18,7 +18,7 @@ background: linear-gradient(to bottom right, #b3ccc2, #73a9db);
     }
     
     .bright-slider-box label {
-        top:47%;
+        margin-top: -2px;
     }
 
 }
