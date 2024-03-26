@@ -20,7 +20,7 @@ background: linear-gradient(to bottom right, #b3ccc2, #73a9db);
 
 
 }
-@media screen and (max-height:400px) {
+@media screen and (max-height:450px) {
     #iframe-message{
         overflow: scroll;
     }
