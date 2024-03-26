@@ -23,7 +23,9 @@ background: linear-gradient(to bottom right, #b3ccc2, #73a9db);
         .center {
         margin-top: 1px;
     }
-
+            #iframe-message{
+        overflow: scroll;
+    }
 }
 
 @media screen and (min-width: 760px) {
@@ -32,9 +34,7 @@ background: linear-gradient(to bottom right, #b3ccc2, #73a9db);
         height: auto !important;
         min-height: 100vh !important;
     }
-        #iframe-message{
-        overflow: scroll;
-    }
+
 }
 
 /*-------------------------------------------Body #0 -----------------------------------*/
