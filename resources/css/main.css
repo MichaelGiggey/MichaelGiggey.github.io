@@ -16,6 +16,10 @@ background: linear-gradient(to bottom right, #b3ccc2, #73a9db);
     #iframe-message{
         overflow: scroll;
     }
+    
+    .bright-slider-box label {
+        padding-bottom: 2px;
+    }
 
 }
 
