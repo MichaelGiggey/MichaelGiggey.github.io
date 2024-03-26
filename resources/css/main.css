@@ -16,6 +16,7 @@ background: linear-gradient(to bottom right, #b3ccc2, #73a9db);
     #iframe-message{
         overflow: scroll;
     }
+
 }
 
 @media screen and (min-width: 760px) {
@@ -264,7 +265,7 @@ nav {
 }
 .bright-slider-box label {
     pointer-events: none; /* Allows pointer events to pass through */
-    height: 98%;
+    height: 100%;
     width: 90%;
     padding: 0 5px;
     position: absolute;
@@ -277,22 +278,23 @@ nav {
     align-content: center;
     font-weight: 500;
     border-radius: 15px;
+  
     
 }
  /* Label styles for slider */
 .dark {
     color: black;
-    text-shadow: 0 0 2px white;
-    
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+   
 }
 
 .light {
     color: rgb(255, 251, 251);
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+    
 }
 .center {
-    font-size: 18px;
-    padding-top: 1px;
+    padding-top: 2px;
     
 }
 /*----------------------------------------Brightness control #4 --------------------------------------*/
@@ -460,6 +462,10 @@ nav {
 }
 /*---------------------------------Secret Content #6 --------------------------------------*/
 
+
+/*----------------------------------------######## #2 --------------------------------------*/
+
+/*----------------------------------------######## #2 --------------------------------------*/
 
 /*----------------------------------------######## #2 --------------------------------------*/
 
