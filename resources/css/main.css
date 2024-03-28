@@ -254,7 +254,7 @@ nav {
 
     appearance: none;
     width: 25px;
-    height: 21px;
+    height: 20px;
     background-color: #05D9FF;
     border:1px solid #66fe08a1;
     cursor: grab;
@@ -288,7 +288,6 @@ nav {
     align-content: center;
     align-self: center;
     font-weight: 500;
-    font-size: 17px;
     border-radius: 15px;
   
     
