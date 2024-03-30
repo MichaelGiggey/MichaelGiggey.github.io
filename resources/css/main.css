@@ -428,6 +428,7 @@ nav {
     margin: 0 auto;
     margin-top: -1px;
     border-top: 2px solid #d1ff048c;
+    border-bottom: none;
     border-radius: 15px;
     width: 70%; 
     height: 30px;
@@ -444,6 +445,7 @@ nav {
     margin: 0 auto;
     margin-top: -59px;
     border-bottom: 2px solid #d1ff048c;
+    border-top: none;
     border-radius: 15px;
     width: 70%; 
     height: 30px;
