@@ -1,5 +1,4 @@
 # React Portfolio App
-=======================
 
 ## Overview ##
 --------------
@@ -38,7 +37,7 @@ Showcase your certifications and resume within the app using an optimized displa
 
 ### Step 1: Clone the Repository ###
 ```
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/MichaelGiggey/MichaelGiggey.github.io.git
 ```
 
 ### Step 2: Install Dependencies ###
@@ -68,7 +67,7 @@ npm start
 ### Home Page ###
 An overview of your profile, including an introduction, recent projects, and social media links
 
-### about Page ###
+### About Page ###
 All About you.
 
 ### Projects ###
