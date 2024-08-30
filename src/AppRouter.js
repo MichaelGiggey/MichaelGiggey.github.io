@@ -48,6 +48,7 @@ const PageWithTransition = ({ children }) => {
 
 const MainRouter = () => {
   return (
+    
     <HashRouter>
       <Navbar />
       <AppRouter />
