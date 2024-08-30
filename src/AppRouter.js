@@ -30,6 +30,7 @@ const AppRouter = () => {
         <Route path="/portfolio" element={<PageWithTransition><Portfolio /></PageWithTransition>} />
       </Routes>
     </AnimatePresence>
+    //testing
   );
 };
 
