@@ -1,3 +1,6 @@
+// adding this so github will deploy the changes to router !!!!!!!!!!! deploy me please !!!!
+
+
 import React from 'react';
 import { HashRouter, Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
