@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter as Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import Home from './components/home/Home';
 import About from './components/about/About';
@@ -48,11 +48,11 @@ const PageWithTransition = ({ children }) => {
 
 const MainRouter = () => {
   return (
-    <Router>
+    <HashRouter>
       <Navbar />
       <AppRouter />
       <Footer />
-    </Router>
+    </HashRouter>
   );
 };
 
