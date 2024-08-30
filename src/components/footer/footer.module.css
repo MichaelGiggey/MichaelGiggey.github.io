@@ -1,0 +1,30 @@
+.footer {
+  padding: 0.5rem 0;
+  align-content: center;
+  color: rgb(53, 76, 96);
+  font-size: clamp(12px, 2vw, 1.5rem);
+  text-shadow: 0 0 0.5px black;
+}
+
+.footerIcons {
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  gap: 1rem;
+  width: 75%;
+  height: fit-content;
+  font-size: clamp(16px, 3vw, 32px);
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(0 0 0.2px black);
+}
+
+.license {
+  font-size: smaller;
+}
+
+.licenseAnchor {
+  font-size: smaller;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(36, 34, 34);
+}

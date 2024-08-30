@@ -1,0 +1,245 @@
+.redditContainer {
+  margin: 1rem auto 0;
+  padding: 0.2rem;
+  width:90%;
+  max-width: 1000px;
+  height: 85vh;
+  background-color: #000000c7;
+  border-radius: 2rem;
+  box-shadow: inset 0 0 5px black,
+  0 0 10px black;
+  font-size: clamp(12px, 2vw, 1rem);
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+@media screen and (max-width: 768px) and (max-height: 900px) {
+  .redditContainer {
+    height: 75vh;
+  }
+}
+
+.redditHeader {
+  width: 30%;
+  min-width: fit-content;
+  margin: 1rem auto -1rem;
+  padding: 1rem 1rem;
+  color:#e4ebf1;
+  font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.redditLogo {
+  color: #41aed2;
+  position: relative;
+  top:0.3rem;
+  padding-right: 0.2rem;
+  filter:drop-shadow(0 0 2px black)
+}
+
+.searchHeader {
+  color: #41aed2;
+}
+
+.searchInput {
+  margin-top: 10px;
+  width: 30%;
+  height: 2.5rem;
+  min-width: fit-content;
+  box-sizing: border-box;
+  border: none;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 998;
+  background-color: #ffffff;
+}
+
+.sortSelect {
+  width: 30%;
+  height: 2.5rem;
+  min-width: fit-content;
+  box-sizing: border-box;
+  border: none;
+  border-left:1px solid #41aed2 ;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  text-align: center;
+  position: relative;
+  right:3px;
+  z-index: 999;
+  background-color: #ffffff;
+}
+
+.sortSelect:active {
+  background-color: #ffffff;
+}
+
+
+.postList {
+  margin: 1rem auto;
+  padding-top: 1rem;
+  list-style-type: none;
+  max-height: 67vh;
+  width: 95%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 768px) and (max-height: 900px) {
+  .postList {
+    height: 50vh;
+  }
+}
+
+.postList::-webkit-scrollbar {
+  width: 12px; 
+}
+
+.postList::-webkit-scrollbar-track {
+  background: #a2a2a24e; 
+  border-radius: 10px;
+}
+
+.postList::-webkit-scrollbar-thumb {
+  background-color: #2379b3;
+  border-radius: 10px;
+  border: 1px solid #0000006f;
+  box-shadow: inset 0 0 1px white;
+}
+
+.postList::-webkit-scrollbar-thumb:hover {
+  background: #303030;
+  border: 1px solid #2379b3;
+  box-shadow: inset 0 0 2px #ffffffb9;
+}
+
+
+.post {
+  padding: 1rem;
+  margin: 0 auto 0.5rem;
+  width: 95%;
+  height: auto;
+  background-color: #1b1b1bea;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px black,
+    inset 0 0 5px rgb(106, 104, 104);
+}
+
+.postDetails {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.postTitle {
+  margin: 0 auto 1.4rem;
+  padding: 0.5rem;
+  width: fit-content;
+  max-width: 90%;
+  height: fit-content;
+  text-decoration: none;
+  color: #e4dede;
+  background-color: #22535b;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px black,
+  inset 0 0 5px black;
+}
+
+.postTitle h2 {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.redditLogoPosts {
+  color: #41aed2;
+  position: relative;
+  top:0.3rem;
+  margin-right: 1rem;
+  font-size: larger;
+  filter:drop-shadow(0 0 1px black)
+}
+
+.postTitle:hover {
+  text-decoration: underline;
+  background-color: cornsilk;
+  color: #333;
+}
+
+.postInfo {
+  /* font-size: 14px; */
+  color: #888;
+}
+
+.postBodyText {
+  padding: 1rem;
+  margin: 1.2rem auto 0.5rem;
+  color: #43d0ff;
+  width: 90%;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  overflow-wrap: break-word;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.postBodyText::-webkit-scrollbar {
+  width: 14px;
+}
+
+.postBodyText::-webkit-scrollbar-track {
+  background: #333;
+  border-top-right-radius:0.5rem;
+  border-bottom-right-radius:0.5rem;
+}
+
+.postBodyText::-webkit-scrollbar-thumb {
+  background-color: #41aed2;
+  border-radius: 2rem;
+  border: 1px solid #333;
+}
+
+.postAuthor {
+  padding: 0;
+  margin: 0 auto;
+  color: #b4b1b1;
+}
+
+ .postScore, .postComments, .postDate {
+  padding: 0.5rem;
+  margin: 0 auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: fit-content;
+  color: #b4b1b1;
+}
+
+.postThumbnail {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  margin: 1rem auto;
+  border-radius: 1rem;
+}
+
+.postVideo {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 500px;
+  border-radius: 1rem;
+}
+
+.link {
+  color: #84b6fc;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #d31313;
+}
